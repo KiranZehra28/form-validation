@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js"></script>
+</head>
+<body>
+
+    <form id="form">
+        <h1>
+            CREDIT CARD DETAILS
+        </h1>
+        <hr>
+
+        <div>
+            <label> Card Type </label>
+            <input name ="type" type="radio"> MasterCard </input>
+            <input name ="type" type="radio"> VISA </input>
+            <input name ="type" type="radio"> Discover </input>
+            <input name ="type" type="radio"> AMEX </input>
+            <input name ="type" type="radio"> Other </input>
+        </div>
+
+        <div>
+            <label> Full Name </label>
+            <input name="fullname" class="input" type="text">
+        </div>
+
+        <div>
+            <label> Card Owner Name </label>
+            <input name="ownername" class="input" type="text">
+        </div>
+
+        <div>
+            <label> Card Number </label>
+            <input name="cardnum" class="input" type="text">
+        </div>
+
+        <div>
+            <label> Passcode </label>
+            <input name="pass" class="input" type="password">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    
+</body>
+<script src="app.js"></script>
+</html>

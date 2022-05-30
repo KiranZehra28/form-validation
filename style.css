@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(178, 215, 238);
+    border: solid 2px black;
+    width: 380px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin: 4px;
+}
+
+div {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px;
+}
+
+.input {
+    width: 310px;
+}
+
+form .note {
+    color: red;
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px solid red;
+    font-weight: 300;
+    color: red;
+}
+
+/* .c1 {
+    color: red;
+    border: 1px solid red;
+}
+
+.c2 {
+    color: green;
+    border: 1px solid green;
+} */
+
+label.error.fail-alert {
+    border: 2px solid red;
+    border-radius: 4px;
+    line-height: 1;
+    padding: 2px 0 6px 6px;
+    background: #ffe6eb;
+}
+
+input.valid.success-alert {
+    border: 2px solid #4CAF50;
+    color: green;
+}
